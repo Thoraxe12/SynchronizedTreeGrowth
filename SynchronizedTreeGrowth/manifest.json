@@ -6,5 +6,8 @@
   "UniqueID": "JonathanOwney.SynchronizedTreeGrowth",
   "EntryDll": "SynchronizedTreeGrowth.dll",
   "MinimumApiVersion": "4.0.0",
-  "UpdateKeys": []
+  "UpdateKeys": [
+    "GitHub:Thoraxe12/SynchronizedTreeGrowth",
+    "Nexus:53159"
+  ]
 }
