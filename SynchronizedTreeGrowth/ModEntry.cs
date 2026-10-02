@@ -125,7 +125,7 @@ public class ModEntry : Mod
                         break;
                 }
 
-                Monitor.Log($"{key} was changed to {o}", LogLevel.Info);
+                Monitor.Log($"{key} was changed to {o}");
             }
         );
     }
