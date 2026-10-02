@@ -1,7 +1,7 @@
 ﻿{
   "Name": "Synchronized Tree Growth",
   "Author": "Jonathan Owney",
-  "Version": "1.1.0",
+  "Version": "1.1.1",
   "Description": "This mod makes all trees on the farm grow together. Original runs RNG on each tree.",
   "UniqueID": "JonathanOwney.SynchronizedTreeGrowth",
   "EntryDll": "SynchronizedTreeGrowth.dll",
