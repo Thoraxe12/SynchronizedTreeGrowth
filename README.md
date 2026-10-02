@@ -1,6 +1,6 @@
 # Synchronized Tree Growth
 
-A Stardew Valley mod that makes your farm's forestry much more predictable and visually satisfying. Instead of trees growing at random, independent rates, this mod synchronizes them so that all unfertilized trees on your farm advance to their next growth stage together on the exact same day.
+A Stardew Valley mod that makes your farm's forestry much more predictable and visually satisfying. Instead of trees growing at random, independent rates, this mod synchronizes them so that all unfertilized trees on your farm advance to their next growth stage together on the exact same day. Both the growth chance and if all trees or just farm trees are configurable using Generic Mod Config Menu (GMCM).
 
 ## Features
 
@@ -8,18 +8,21 @@ A Stardew Valley mod that makes your farm's forestry much more predictable and v
 * **Vanilla-Friendly Winter Rules:** Seamlessly respects standard game mechanics. Unfertilized trees will naturally pause their growth during the Winter season.
 * **Full Tree Fertilizer Compatibility:** Tree Fertilizer works exactly as intended. Fertilized trees bypass the synchronization and grow one stage every single night, year-round, handled safely by the base game.
 * **Lightweight & Safe:** Uses smart state-snapshotting to prevent double-growth bugs and minimizes performance impact by letting the base game handle edge cases.
+* **Configurable**: Growth chance and which trees can be configured using GMCM.
 
 ## Installation
 
 1. Install the latest version of [SMAPI](https://smapi.io/).
 2. Download the latest release from the [Releases](../../releases) page (or Nexus Mods, if applicable).
 3. Unzip the downloaded file and place the `SynchronizedTreeGrowth` folder into your `Stardew Valley/Mods` directory.
-4. Launch the game using SMAPI.
+4. (Optional) Download latest version of [GMCM](https://www.nexusmods.com/stardewvalley/mods/5098?tab=description) and place it in you `Stardew Valley/Mods` directory.
+5. Launch the game using SMAPI.
 
 ## Compatibility
 
 * Requires **Stardew Valley 1.6+**
 * Requires **SMAPI 4.0.0+**
+* Optional **GMCM 1.16.0+**
 * Works in both single-player and multiplayer (install on the host machine).
 * Safely ignores Fruit Trees, custom trees lacking standard properties, and fully grown trees.
 
